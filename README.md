@@ -13,6 +13,7 @@ I will have a makefile to run the progam instead of compiling it.
 # HOW TO USE
 1. Edit the schedule.txt to add Classes, Assignments, and Exams. 
 Format of the text file
+```
 BEGIN
 # CLASS
 Example Class
@@ -22,4 +23,4 @@ Example Class|Example Assignment|0/0/0|11:59PM
 Example Class|Example Class Exam|0/0/0
 END
 Class names must match, and must follow the format above with | between text fields. 
-
+```
