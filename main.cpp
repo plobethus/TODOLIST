@@ -70,12 +70,12 @@ std::string formatDate(const std::string& date) {
         return "Invalid Date";
     }
 
-    // Convert year
-    if (year < 100) {  // Assume 2-digit year is in 2000s
-        year += (year < 25) ? 2000 : 1900;
+    // If the year is a 2-digit number, always add 2000
+    if (year < 100) {  
+        year += 2000;
     }
 
-    // Determine ordinal suffix for the day
+    // Determine ordinal suffix
     std::string suffix = "th";
     if (day == 1 || day == 21 || day == 31) suffix = "st";
     else if (day == 2 || day == 22) suffix = "nd";
@@ -83,6 +83,7 @@ std::string formatDate(const std::string& date) {
 
     return getMonthName(month) + " " + std::to_string(day) + suffix + " " + std::to_string(year);
 }
+
 
 /**
  * Splits a string by a specified delimiter and returns tokens in a vector.

@@ -3,13 +3,18 @@ BEGIN
 Cybersecurity
 RTES
 Datascience 1
-GPU Parallel
+GPU Class
 Numerical Methods
 Database Systems
 # Assignments
-Cybersecurity|Homework 2|3/14/25|11:59PM
-Datascience 1|Conceptual Map|3/15/25|11:59PM
+Numerical Methods|Homework 4|2/26/25|11:59PM
+Datascience 1|Practices|2/28/25|11:59PM
+Datascience 1|Homework 2|3/2/25|11:59PM
+Cybersecurity|Homework 2|3/2/25|11:59PM
+Datascience 1|CMAP 3|3/7/25|11:59PM
 # Exams
-Cybersecurity|Exam 2|3/3/25
-Numerical Methods|Midterm|3/29/25
+Cybersecurity|Midterm|3/3/25
+Database Systems|Midterm|3/6/25
+RTES|Midterm|3/24/25
+Datascience 1|Exam 2|4/1/25
 END
