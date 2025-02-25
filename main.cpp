@@ -14,7 +14,7 @@ struct Assignment {
     std::string className;
     std::string assignmentName;
     std::string dueDate;  // Format: "3/3/3"
-    std::string dueTime;  // Format: "11:59PM" (optional)
+    std::string dueTime;  // Format: "11:59PM" 
 };
 
 struct Exam {
