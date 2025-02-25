@@ -22,5 +22,5 @@ Example Class|Example Assignment|0/0/0|11:59PM
 # EXAM
 Example Class|Example Class Exam|0/0/0
 END
-Class names must match, and must follow the format above with | between text fields. 
 ```
+Class names must match, and must follow the format above with | between text fields. `
