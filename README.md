@@ -9,6 +9,7 @@ Allowing the program to edit the text file itself, so assignments/classes/exams 
 More menus :) I love menus!!!!
 ## FUTURE
 I will have a makefile to run the progam instead of compiling it.
+I will add more functionality to assignments (completing them as done, showing progress of them)
 
 # HOW TO USE
 1. Edit the schedule.txt to add Classes, Assignments, and Exams. 
